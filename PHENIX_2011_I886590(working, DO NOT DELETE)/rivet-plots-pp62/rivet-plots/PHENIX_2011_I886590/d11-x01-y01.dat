@@ -1,0 +1,53 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=$\pi^0$ ratio (200 GeV/62.4 GeV) vs $p_T$
+XLabel=$p_{T}$(GeV/c)
+YLabel=Ratio
+DrawOnly=/PHENIX_2011_I886590/d11-x01-y01 //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d11-x01-y01
+LegendOnly=/PHENIX_2011_I886590/d11-x01-y01 //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d11-x01-y01
+RatioPlot=1
+RatioPlotReference=/PHENIX_2011_I886590/d11-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /PHENIX_2011_I886590/d11-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/PHENIX_2011_I886590/d11-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+4.910000e-01	7.410000e-01	1.223730e+00	1.346110e-01	1.346110e-01
+7.410000e-01	1.041000e+00	1.359890e+00	1.495900e-01	1.495900e-01
+1.041000e+00	1.467000e+00	1.591580e+00	1.750770e-01	1.750770e-01
+1.467000e+00	1.971000e+00	2.038780e+00	2.242770e-01	2.242770e-01
+1.971000e+00	2.474000e+00	2.716590e+00	2.988690e-01	2.988690e-01
+2.474000e+00	2.977000e+00	3.485930e+00	3.836080e-01	3.836080e-01
+2.977000e+00	3.479000e+00	4.479020e+00	4.932090e-01	4.932090e-01
+3.479000e+00	3.981000e+00	5.638070e+00	6.217320e-01	6.217320e-01
+3.981000e+00	4.482000e+00	6.849300e+00	7.535330e-01	7.535330e-01
+4.482000e+00	4.983000e+00	8.569110e+00	9.428910e-01	9.428910e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d11-x01-y01
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: .nan, dn: .nan}}, 1: {"": {up: .nan, dn: .nan}}, 2: {"": {up: .nan, dn: .nan}}, 3: {"": {up: .nan, dn: .nan}}, 4: {"": {up: .nan, dn: .nan}}, 5: {"": {up: .nan, dn: .nan}}, 6: {"": {up: .nan, dn: .nan}}, 7: {"": {up: .nan, dn: .nan}}, 8: {"": {up: .nan, dn: .nan}}, 9: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d11-x01-y01
+Title=Rivet_pp62
+# xlow	 xhigh	 val	 errminus	 errplus
+4.910000e-01	7.410000e-01	nan	nan	nan
+7.410000e-01	1.041000e+00	nan	nan	nan
+1.041000e+00	1.467000e+00	nan	nan	nan
+1.467000e+00	1.971000e+00	nan	nan	nan
+1.971000e+00	2.474000e+00	nan	nan	nan
+2.474000e+00	2.977000e+00	nan	nan	nan
+2.977000e+00	3.479000e+00	nan	nan	nan
+3.479000e+00	3.981000e+00	nan	nan	nan
+3.981000e+00	4.482000e+00	nan	nan	nan
+4.482000e+00	4.983000e+00	nan	nan	nan
+# END HISTO1D
+

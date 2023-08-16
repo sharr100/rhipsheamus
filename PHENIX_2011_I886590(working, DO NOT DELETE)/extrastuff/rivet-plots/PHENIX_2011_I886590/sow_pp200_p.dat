@@ -1,0 +1,17 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+DrawOnly=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/sow_pp200_p
+LegendOnly=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/sow_pp200_p
+# END PLOT
+
+# BEGIN COUNTER //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/sow_pp200_p
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/sow_pp200_p
+Title=Rivet_pp200
+# value	 error
+1.424600e+04	1.193566e+02
+# END COUNTER
+

@@ -1,0 +1,65 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=$K^-/K^+$ ratio vs $p_T$ (62.4 GeV)
+XLabel=$p_{T}$(GeV/c)
+YLabel=Ratio
+DrawOnly=/PHENIX_2011_I886590/d21-x01-y01 //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/d21-x01-y01
+LegendOnly=/PHENIX_2011_I886590/d21-x01-y01 //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/d21-x01-y01
+RatioPlot=1
+RatioPlotReference=/PHENIX_2011_I886590/d21-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /PHENIX_2011_I886590/d21-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/PHENIX_2011_I886590/d21-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e-01	5.000000e-01	8.971960e-01	5.203161e-02	5.203161e-02
+5.000000e-01	6.000000e-01	9.146800e-01	5.223166e-02	5.223166e-02
+6.000000e-01	7.000000e-01	8.730240e-01	5.021992e-02	5.021992e-02
+7.000000e-01	8.000000e-01	9.222700e-01	5.371697e-02	5.371697e-02
+8.000000e-01	9.000000e-01	8.544000e-01	5.088945e-02	5.088945e-02
+9.000000e-01	1.000000e+00	8.125000e-01	5.020528e-02	5.020528e-02
+1.000000e+00	1.100000e+00	8.072260e-01	5.189432e-02	5.189432e-02
+1.100000e+00	1.200000e+00	7.780020e-01	5.274516e-02	5.274516e-02
+1.200000e+00	1.300000e+00	8.913490e-01	6.441465e-02	6.441465e-02
+1.300000e+00	1.400000e+00	8.320140e-01	6.490501e-02	6.490501e-02
+1.400000e+00	1.500000e+00	7.988580e-01	6.724330e-02	6.724330e-02
+1.500000e+00	1.600000e+00	8.210780e-01	7.833565e-02	7.833565e-02
+1.600000e+00	1.700000e+00	7.646830e-01	7.839645e-02	7.839645e-02
+1.700000e+00	1.800000e+00	6.960030e-01	7.855039e-02	7.855039e-02
+1.800000e+00	1.900000e+00	7.675080e-01	1.005007e-01	1.005007e-01
+1.900000e+00	2.000000e+00	6.545390e-01	9.954465e-02	9.954465e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/d21-x01-y01
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: .nan, dn: .nan}}, 1: {"": {up: .nan, dn: .nan}}, 2: {"": {up: .nan, dn: .nan}}, 3: {"": {up: .nan, dn: .nan}}, 4: {"": {up: .nan, dn: .nan}}, 5: {"": {up: .nan, dn: .nan}}, 6: {"": {up: .nan, dn: .nan}}, 7: {"": {up: .nan, dn: .nan}}, 8: {"": {up: .nan, dn: .nan}}, 9: {"": {up: .nan, dn: .nan}}, 10: {"": {up: .nan, dn: .nan}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}, 15: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp200.yoda/PHENIX_2011_I886590:beam=pp200/d21-x01-y01
+Title=Rivet_pp200
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e-01	5.000000e-01	nan	nan	nan
+5.000000e-01	6.000000e-01	nan	nan	nan
+6.000000e-01	7.000000e-01	nan	nan	nan
+7.000000e-01	8.000000e-01	nan	nan	nan
+8.000000e-01	9.000000e-01	nan	nan	nan
+9.000000e-01	1.000000e+00	nan	nan	nan
+1.000000e+00	1.100000e+00	nan	nan	nan
+1.100000e+00	1.200000e+00	nan	nan	nan
+1.200000e+00	1.300000e+00	nan	nan	nan
+1.300000e+00	1.400000e+00	nan	nan	nan
+1.400000e+00	1.500000e+00	nan	nan	nan
+1.500000e+00	1.600000e+00	nan	nan	nan
+1.600000e+00	1.700000e+00	nan	nan	nan
+1.700000e+00	1.800000e+00	nan	nan	nan
+1.800000e+00	1.900000e+00	nan	nan	nan
+1.900000e+00	2.000000e+00	nan	nan	nan
+# END HISTO1D
+

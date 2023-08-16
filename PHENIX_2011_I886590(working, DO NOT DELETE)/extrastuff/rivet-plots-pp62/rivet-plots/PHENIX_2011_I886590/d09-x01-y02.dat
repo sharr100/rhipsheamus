@@ -1,0 +1,27 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=antiprotons in p+p noFD at $\sqrt{s_{NN}}=$ 200GeV
+XLabel=$p_{T}$(GeV/c)
+YLabel=$\frac{1}{N_{Event}2\pi p_{T}}\frac{d^{2}N}{dp_{T}dy}$
+DrawOnly=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d09-x01-y02
+LegendOnly=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d09-x01-y02
+# END PLOT
+
+# BEGIN HISTO1D //lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d09-x01-y02
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//lustre/isaac/proj/UTK0019/sharr100/rivet/RIVETAnalyses/PHENIX_2011_I886590/Rivet_pp62.yoda/PHENIX_2011_I886590:beam=pp62/d09-x01-y02
+Title=Rivet_pp62
+# xlow	 xhigh	 val	 errminus	 errplus
+3.000000e+00	3.200000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.200000e+00	3.400000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.400000e+00	3.600000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.600000e+00	3.800000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.800000e+00	4.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.000000e+00	4.200000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.200000e+00	4.400000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+4.400000e+00	4.600000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
