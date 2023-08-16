@@ -1,0 +1,40 @@
+! Command file for testing different functionalities of main93
+! Note that for the various output functionalities to work,
+! HepMC, YODA, RIVET and ROOT respectively needs to either
+! be installed to system path, or appended before compiling.
+
+! 1) Settings related to the physics processes generated.
+Beams:idA = 2212        ! first beam p = 2212
+Beams:idB = 2212        ! second beam p = 2212
+Beams:eCM = 200.       ! CM energy of collision
+SoftQCD:all = on        ! All soft QCD processes are off
+SigmaTotal:mode = 2     !
+PartonLevel:MPI = off   !
+HadronLevel:Decay = on  !
+ParticleDecays:limitTau0 = on !
+ParticleDecays:tau0Max = 10 !
+Tune:pp = 14            !
+Tune:ee = 7             !
+
+! 2) Settings related to the run
+Main:numberOfEvents = 10000          ! number of events to generate
+Init:showChangedSettings = on      ! list changed settings
+Init:showAllSettings = off         ! list all settings
+Init:showChangedParticleData = on  ! list changed particle data
+Init:showAllParticleData = off     ! list all particle data
+Next:numberCount = 1000            ! print message every n events
+Next:numberShowLHA = 1             ! print LHA information n times
+Next:numberShowInfo = 1            ! print event information n times
+Next:numberShowProcess = 1         ! print process record n times
+Next:numberShowEvent = 1           ! print event record n times
+Stat:showPartonLevel = on          ! additional statistics on MPI
+
+
+
+! 3) Settings related to output
+Main:runRivet = on             ! Run Rivet (specify analyses below)
+Main:analyses = PHENIX_2011_I886590
+          ! Names of Rivet analyses to be run, as a comma-separated list
+Main:writeHepMC = on         ! Write .hepmc events to a file.
+Main:writeRoot = off            ! Write particle level output to a root file
+Main:outputLog = on             ! Put all printed output to a log file.
